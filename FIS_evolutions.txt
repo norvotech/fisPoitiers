@@ -1,0 +1,69 @@
+##########################################################################
+#                                                                        #
+#                     BASE FIS                                           #
+#                                                                        #
+##########################################################################
+##########################################################################
+#                                                                        #
+#                      DESIGN www.oriontronic.com                        #
+#                                                                        #
+##########################################################################
+
+06/07/2018 ->Refonte complète de la page principale de la base fis et amélioration des connexions.
+06/07/2018 ->Refonte complète de l’environnement d’administration.
+06/07/2018 ->Refonte complète de l’environnement de la boite à outils.
+
+############################################################
+#                    ADMIN                                 #
+############################################################
+
+
+
+############################################################
+#                    MEMBRE                                #
+############################################################
+ajout colum date naissance table personnel creps fis
+22/09/2017 ajout des menus h6 / small pour tout voir.
+
+
+############################################################
+#                    PDF                                  #
+############################################################
+14/07/2017 Ajout de la fonction upload des PDF
+
+
+
+
+############################################################
+#             BOOTSTRAP  		                          #
+############################################################
+
+20/07/2017 modification du champs corps en corps -> erreur 3900 
+22/09/2017 modification du module abscenceModule -> ne calculais pas automatiqueemtn la ref du candidat 
+
+############################################################
+#                EXCEL                                     #
+############################################################
+création des champs avec les ref ->listeStagiaireAllItem.php
+correction de la focntion en focntion des corps et de la promo
+creation d'un master avec ventillations des champs dans l excel ->master.php
+############################################################
+#                HEBERGEMENT                               #
+############################################################
+22/09/2017 suppression des candidats qui en participent pas au module
+22/09/2017 laisse tout de meme sur la premiere page
+
+############################################################
+#                CORDONATEURS                              #
+############################################################
+22/09/2017 ajout du moteur de recherche W3
+22/10/2017 -> Ajout de la somme sur le récapitulatif
+
+############################################################
+#               STAGIAIRES                                #
+############################################################
+22/09/2017 colonne concours-> sauvadet placé a coté de la col corps
+
+06/07/2018 ->Corrections des éditions des maps stagiaires (géolocalisation des stagiaires de la promotion uniquement)
+06/07/2018 ->Enquête annuelle -> faute d’orthographe sur le bouton Vérifications.
+

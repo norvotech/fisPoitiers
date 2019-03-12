@@ -1,0 +1,15 @@
+imagesUp/*
+userfiles/*
+dploy.yaml
+*/cache/**
+**/_notes/*
+.idea/
+*DS_Store
+._*
+/.htaccess66
+/aesecure.php
+/config2.php
+/config_dijon.php
+/config_localpc jl.php
+/config_raza.php
+/define2.php

@@ -1,0 +1,31 @@
+Options +FollowSymLinks
+#order allow,deny
+#deny from all
+
+
+
+RewriteEngine on
+
+#Sub-dir e.g: /cmsms
+#RewriteBase /
+#
+# 301 Redirect all requests that don't contain a dot or trailing slash to
+# include a trailing slash
+
+RewriteCond %{REMOTE_HOST}  \.laurion\.(com|net)$  [OR]
+RewriteCond %{REMOTE_HOST} \.cn$ [OR]
+RewriteCond %{REMOTE_HOST} ^badhost\.baddomain\.com$ [OR]
+RewriteCond %{REMOTE_ADDR}  ^192\.168\.12\.13$
+#a	utoriser une ip
+RewriteCond %{REMOTE_ADDR} !192.168.1.127
+RewriteRule ^.*$   -   [F]
+
+# pour le vol d'image
+
+#RewriteCond %{HTTP_REFERER} !^$
+#RewriteCond %{HTTP_REFERER} !^http://www.creps86.fr/fis/pgf/.*$ [NC]
+#ReWriteRule .*\.(gif|png|jpe?g)$ - [F]
+
+#sErrorDocument 404/ http://www.creps86.fr/fis/pgf/404.php
+
+ErrorDocument 404/ http://localhost/formation_poitiers/404.php
